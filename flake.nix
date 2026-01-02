@@ -72,7 +72,7 @@
             cargo
             gcc
             gnumake
-            (tree-sitter.override { webUISupport = true; })
+            # (tree-sitter.override { webUISupport = true; })
             python3
             emscripten
           ];

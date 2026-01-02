@@ -2,7 +2,7 @@
 name = "tree-sitter-rstml"
 description = "Rust + html grammar for the tree-sitter parser library."
 authors = ["Ryan Halliwell <git@rayliwell.com>"]
-version = "2.0.0"
+version = "3.0.0"
 keywords = ["incremental", "parsing", "rstml"]
 categories = ["parsing", "text-editors"]
 repository = "https://github.com/rayliwell/tree-sitter-rstml.git"
@@ -27,7 +27,7 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = "~0.22.6"
+tree-sitter = "0.26.3"
 
 [build-dependencies]
 cc = "1.0"
