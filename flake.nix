@@ -67,7 +67,7 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            nodejs
+            nodejs_22
             rustc
             cargo
             gcc
